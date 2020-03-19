@@ -24,12 +24,18 @@
 li{
   display: block;
   font-size: large;
+  margin-top: -3px;
+  margin-left: -20;
 }
 #item2{
   grid-column: 2/-1;
   
 }
-
+#list{
+  display: none;
+  margin-top: -56px;
+  margin-left:1000px;
+}
 #item3 p{
   grid-column: 2/9;
   font-size: 25px;
@@ -118,6 +124,30 @@ footer {
     grid-template-columns: repeat(9,1fr);
     grid-gap:20px;
   }
+  #item1{
+    display: none;
+  }
+  #item2{
+    display: grid;
+    grid-column:1/-1;
+
+  }
+ #item2 img{
+   flex-direction: column;
+  justify-content: space-around;
+  
+ 
+ }
+  #list{
+   display: block;
+    margin-top: -80px;
+    margin-left: 1100px;    
+   }
+   #inline{
+     display: inline;
+     margin: 7px;
+     font-size: 20px;
+   }
   
   #item6{
     display: grid;
