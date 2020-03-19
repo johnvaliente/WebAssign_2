@@ -38,6 +38,23 @@ li{
  margin-top: 50px;
 }
 
+#item4{
+  grid-column: 1/-1;
+  overflow:auto;
+  background-color: 696969;
+  
+ /*display: grid;
+  grid-template-rows: (3,1fr);
+  grid-template-columns: repeat(9,1fr);
+  grid-gap:20px;
+ */
+ }
+  
+ #item5{
+  grid-column: 1/4;
+ }
+ 
+
 footer {
   background-color: black;
   grid-column: 1/-1;
@@ -45,3 +62,115 @@ footer {
   color: white;
   padding-left: 15px;
 } 
+
+@media screen and (min-width: 200px){
+ 
+  #item3{
+      display: grid;
+      grid-column: 1/-1; 
+      grid-row: 2/3;
+      text-align: center;
+   
+      grid-template-rows: 1fr 2fr 1fr;
+      grid-template-columns: 1fr;
+      grid-gap:20px;
+  }
+  
+  #item6{
+    display: grid;
+    height:100%;
+    grid-column: 2/9;
+    margin-right: 40px;
+      
+    grid-gap: 40px;
+    background-color: paleturquoise;
+  }
+  
+  #item6-1 {
+    border: 1px solid black;
+    grid-column: 1/-1;
+  
+  }
+  
+  #item6-2 {
+    border: 1px solid black;
+    grid-column: 1/-1;
+  }
+  
+  #item6-3{
+    border: 1px solid black;
+    grid-column: 1/-1;
+  }
+  #item6-4{
+    border: 1px solid black;
+    grid-column: 1/-1;
+  }
+  }
+ @media screen and (min-width: 1200px) {
+  
+  #item3{
+    display: grid;
+    grid-column: 1/-1; 
+    grid-row: 2/3;
+    text-align: center;
+     display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: repeat(9,1fr);
+    grid-gap:20px;
+  }
+  
+  #item6{
+    display: grid;
+    height:100%;
+    grid-column: 2/9;
+  
+    grid-gap: 10px;
+    background-color: paleturquoise;
+  }
+  
+  #item6-1 {
+    border: 1px solid black;
+    grid-column: 1/3;
+  
+  }
+  
+  #item6-2 {
+    border: 1px solid black;
+    grid-column: 3/5;
+  }
+  
+  #item6-3{
+    border: 1px solid black;
+    grid-column: 1/3;
+  }
+  #item6-4{
+    border: 1px solid black;
+    grid-column: 3/5;
+  }
+ }
+  
+  
+ #item7{
+  display: grid;
+    height:100%;
+    grid-column: 3/8;
+    margin-bottom: -30px;
+   
+    grid-gap: 10px;
+    background-color: pink;
+ }
+ #item8{
+  display: grid;
+    height:100%;
+    grid-column: 2/5;
+    grid-gap: 10px;
+    background-color: pink;
+ }
+ #item9{
+  display: grid;
+    height:100%;
+    grid-column: 6/9;
+    grid-gap: 10px;
+    background-color: pink;
+ }
+ 
