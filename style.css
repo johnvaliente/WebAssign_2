@@ -2,7 +2,7 @@
     display: grid;
     height:100%;
     grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 0.5fr 5fr ;
+    grid-template-rows: auto 5fr auto;
     grid-gap: 10px;
     margin: 0%;
     padding: 0%;
@@ -88,12 +88,7 @@ footer {
     grid-column: 1/-1;
     align-content: center;
   }
-  header #logo{
-    position: relative;
-    left: 50%;
-    top: 50px;
-    bottom: 50px;
-  }
+ 
   #block{
    display: inline-block;
    position: relative;
