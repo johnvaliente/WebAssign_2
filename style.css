@@ -46,11 +46,10 @@ p{
   display: none;
   margin-top: -56px;
   margin-left:1000px;
+  font-size: large;
 }
 #small{
   display: none;
-  margin-top: -3px;
-  margin-left: -20px;
 }
 
 #item3 p{
@@ -70,6 +69,9 @@ p{
  #item5{
   grid-column: 1/4;
  }
+ .red_star{
+   color: rgb(236, 75, 75);
+ }
 footer {
   background-color: black;
   grid-column: 1/-1;
@@ -86,11 +88,12 @@ footer {
   }
  .logo{
   display: block;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
  }
-  #block{
-   display: inline-block;
+  #block1, #block2, #block3{
+   display: block;
    position: relative;
    top: -110px;
    left: -20px;
@@ -161,27 +164,27 @@ footer {
     grid-column:1/-1;
     
   }
- #item2 img{
-   justify-content: start;
-   margin-left: 1%;
-   margin-top: 2%;
- }
 
   #list{
    display: block;
+   top: 3px;
    
    }
    #small{
      display: none;
    }
-   #inline{
+   #inline1, #inline2, #inline3{
      display: inline;
-     margin: 7px;
-     font-size: 20px;
      float: right;
+     margin-top: 80px;
+     margin: 30px;
+     
    }
-   #block{
+   #block3 , #block1 , #block2{
     display: none;
+   }
+   .logo{
+     float: left;
    }
   
   #item6{
@@ -239,5 +242,6 @@ footer {
  }
 
 
- /** this is a test 
+
+
  
