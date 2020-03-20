@@ -8,6 +8,7 @@
     padding: 0%;
     
 }
+
 .item{
   font-size: 30px;
   background-color: #3f3d3d;
@@ -37,15 +38,10 @@ p{
   margin-top: 5%;
   margin-bottom: 2%;
 }
-header #logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin-left: -670px;
-  
-  margin-bottom: 2%;
+.logo2{
+  display: inline-block;
+  margin-left: 50%;
 }
-
 #list{
   display: none;
   margin-top: -56px;
@@ -88,7 +84,11 @@ footer {
     grid-column: 1/-1;
     align-content: center;
   }
- 
+ .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
   #block{
    display: inline-block;
    position: relative;
@@ -152,6 +152,7 @@ footer {
     grid-template-columns: repeat(9,1fr);
     grid-gap:20px;
   }
+
   #item1{
     display: none;
   }
@@ -213,12 +214,6 @@ footer {
     grid-column: 3/5;
   }
  }
- #logo{
-  display: flex;
-  justify-content: start;
-  margin-left: 1%;
-  margin-top: 2%;
- }
  #item7{
   display: grid;
     height:100%;
@@ -242,6 +237,7 @@ footer {
     grid-gap: 10px;
     background-color: pink;
  }
+
 
  /** this is a test 
  
