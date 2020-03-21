@@ -163,7 +163,7 @@ footer {
       margin-bottom: -30px;
      
       grid-gap: 10px;
-      background-color: rgb(92, 76, 76);
+     
    } 
  @media screen and (min-width: 800px) {
   .wrapper{
@@ -214,7 +214,7 @@ footer {
   
     grid-gap: 10px;
     
-    background-color: rgb(92, 76, 76);
+    /*background-color: rgb(92, 76, 76);*/
   }
   #item3 p{
     grid-column: 2/9;
@@ -243,10 +243,10 @@ footer {
   display: grid;
     height:100%;
     grid-column: 2/9;
+ 
     margin-bottom: -30px;
-   
     grid-gap: 10px;
-    background-color: rgb(92, 76, 76);
+    /*background-color: rgb(92, 76, 76);*/
  }
  #item8{
   display: grid;
