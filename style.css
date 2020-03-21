@@ -1,3 +1,7 @@
+*{
+  color:turquoise;
+}
+
 .wrapper {
     display: grid;
     height:100%;
@@ -40,6 +44,11 @@ p{
 .logo2{
   display: inline-block;
   margin-left: 50%;
+}
+
+.turquoise {
+  color: turquoise;
+
 }
 #list{
   display: none;
@@ -98,6 +107,7 @@ footer {
    left: -20px;
    margin-left: 10px;
    margin: 10px;
+   color: turquoise;
  }
   #item1{
     display: none;
@@ -175,12 +185,13 @@ footer {
    #inline1, #inline2, #inline3{
    
 
-     display: inline;
+    display: inline;
    position: relative;
    top: 110px;
    left: 50%;
    margin-left: 10px;
    margin: 10px;
+   color: turquoise;
      
    }
    #block3 , #block1 , #block2{
