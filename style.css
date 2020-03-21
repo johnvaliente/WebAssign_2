@@ -8,7 +8,6 @@
     padding: 0%;
     
 }
-
 .item{
   font-size: 30px;
   background-color: #3f3d3d;
@@ -80,7 +79,7 @@ footer {
   padding-left: 15px;
 } 
 
-@media screen and (min-width: 200px){
+@media screen and (min-width: 150px){
  
   #item2{
     grid-column: 1/-1;
@@ -174,10 +173,14 @@ footer {
      display: none;
    }
    #inline1, #inline2, #inline3{
+   
+
      display: inline;
-     float: right;
-     margin-top: 80px;
-     margin: 30px;
+   position: relative;
+   top: 110px;
+   left: 50%;
+   margin-left: 10px;
+   margin: 10px;
      
    }
    #block3 , #block1 , #block2{
