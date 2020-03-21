@@ -1,23 +1,14 @@
 *{
   color:turquoise;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
 .wrapper {
     display: grid;
     height:100%;
     grid-template-columns: 1fr 9fr 1fr ;
     grid-template-rows: auto 5fr auto;
-<<<<<<< HEAD
     grid-gap: 10px;
     
     
-=======
-    grid-gap: 10px;    
-    font-size: small; 
->>>>>>> dev
 }
 .item{
   font-size: 30px;
@@ -45,18 +36,11 @@ body{
   grid-column: 1/2;
 }
 p{
-<<<<<<< HEAD
   color: turquoise;
 }
 .turquoise {
   color: turquoise;
 
-=======
-  color: turquoise; 
-}
-.turquoise {
-  color: turquoise;
->>>>>>> dev
 }
 #list{
   display: none;
@@ -103,13 +87,6 @@ footer {
   background-color:  rgb(92, 76, 76);
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 50px){
-
- img{
-   max-width: 100%;
- }
-=======
 
 @media screen and (min-width: 500px){
 .wrapper{
@@ -117,7 +94,6 @@ footer {
   margin-right: auto;
   margin-left: auto;
 }
->>>>>>> dev
   #item2{
     grid-column: 1/-1;
     align-content: center;
@@ -206,15 +182,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-<<<<<<< HEAD
- @media screen and (min-width: 800px) {
-  .wrapper{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-=======
->>>>>>> dev
   #item3{
     display: grid;
     grid-column: 1/-1; 
@@ -233,24 +200,15 @@ footer {
    }
    #list{
     display: flex;
-<<<<<<< HEAD
-    margin-right: -90px;
-    
-    margin-top: 70px;
-=======
     margin-right: 90px;
     
     margin-top: 70px;
     
->>>>>>> dev
    }
    #inline1, #inline2, #inline3{
     display: inline-block;
     margin: auto;
-<<<<<<< HEAD
-=======
     margin-right: -80px;
->>>>>>> dev
     color: turquoise;
      
    }
@@ -320,34 +278,8 @@ footer {
     background-color: pink;
  }
  
-<<<<<<< HEAD
- @media screen and (min-width: 1200px ){
-  .wrapper{
-
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #item3{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #inline1, #inline2, #inline3{
-    display: inline;
- 
-   top: 110px;
-   left: 10%;
-   margin-left: 5px;
-   margin: 10px;
-   color: turquoise;
-     
-   }
- }
-
-=======
  @media screen and (min-width: 1800px ){
   .wrapper{
->>>>>>> dev
 
     max-width: 1800px;
     margin-left: auto;
@@ -411,5 +343,3 @@ footer {
  }
 
 
-}
-}
