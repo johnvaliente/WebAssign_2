@@ -8,8 +8,7 @@
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-rows: auto 5fr auto;
     grid-gap: 10px;
-    margin: 0%;
-    padding: 0%;
+    
     
 }
 .item{
@@ -24,6 +23,7 @@ header, footer{
 }
 body{
   background-color: black;
+  max-width: 100%;
 }
 #item1{
   display: grid;
@@ -32,29 +32,12 @@ body{
 p{
   color: turquoise;
 }
-#item2 img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  margin-left:40%;
-  margin-top: 5%;
-  margin-bottom: 2%;
-}
-.logo2{
-  display: inline-block;
-  margin-left: 50%;
-}
-
 .turquoise {
   color: turquoise;
 
 }
 #list{
   display: none;
-  margin-top: -56px;
-  margin-left:1000px;
-  font-size: large;
 }
 #small{
   display: none;
@@ -73,7 +56,6 @@ p{
   overflow:auto;
   
  }
-  
  #item5{
   grid-column: 1/4;
  }
@@ -88,12 +70,16 @@ footer {
   padding-left: 15px;
 } 
 
-@media screen and (min-width: 150px){
- 
+@media screen and (min-width: 50px){
+
+ img{
+   max-width: 100%;
+ }
   #item2{
     grid-column: 1/-1;
     align-content: center;
   }
+
  .logo{
   display: block;
   margin-top: auto;
@@ -153,8 +139,12 @@ footer {
     grid-column: 1/-1;
   }
   }
- @media screen and (min-width: 1200px) {
-  
+ @media screen and (min-width: 800px) {
+  .wrapper{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #item3{
     display: grid;
     grid-column: 1/-1; 
@@ -168,30 +158,19 @@ footer {
   #item1{
     display: none;
   }
-  #item2{
-    display: grid;
-    grid-column:1/-1;
-    
-  }
-
-  #list{
-   display: block;
-   top: 3px;
-   
-   }
-   #small{
+  #small{
      display: none;
    }
+   #list{
+    display: flex;
+    margin-right: -90px;
+    
+    margin-top: 70px;
+   }
    #inline1, #inline2, #inline3{
-   
-
-    display: inline;
-   position: relative;
-   top: 110px;
-   left: 50%;
-   margin-left: 10px;
-   margin: 10px;
-   color: turquoise;
+    display: inline-block;
+    margin: auto;
+    color: turquoise;
      
    }
    #block3 , #block1 , #block2{
@@ -254,6 +233,30 @@ footer {
     grid-gap: 10px;
     background-color: pink;
  }
+ 
+ @media screen and (min-width: 1200px ){
+  .wrapper{
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #item3{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #inline1, #inline2, #inline3{
+    display: inline;
+ 
+   top: 110px;
+   left: 10%;
+   margin-left: 5px;
+   margin: 10px;
+   color: turquoise;
+     
+   }
+ }
+
 
 
 
